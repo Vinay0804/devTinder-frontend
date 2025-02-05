@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
 import { BrowserRouter, Routes,Route } from 'react-router-dom'
-import Body from './Body'
-import Profile from './Profile'
-import Login from './login'
+import Body from './components/Body'
+import Profile from './components/Profile'
+import Login from './components/Login'
 import {Provider} from "react-redux";
 import appStore from './utils/appStore'
-import Feed from './Feed'
+import Feed from './components/Feed'
 
 
  const App = () => {
